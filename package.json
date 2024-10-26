@@ -1,0 +1,36 @@
+{
+  "name": "logicflow-plugin-global-drag",
+  "private": false,
+  "author": "ChangeSuger",
+  "license": "MIT",
+  "version": "0.0.1",
+  "keywords": [
+    "LogicFlow",
+    "@logicflow/extension"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChangeSuger/logicflow-plugin-global-drag"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build"
+  },
+  "devDependencies": {
+    "@logicflow/core": "^2.0.6",
+    "@types/node": "^22.8.1",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.9",
+    "vite-plugin-dts": "^4.3.0",
+    "vue": "^3.5.12",
+    "vue-tsc": "^2.1.6"
+  }
+}
